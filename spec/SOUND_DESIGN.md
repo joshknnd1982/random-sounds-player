@@ -20,7 +20,7 @@ P4 S4.4, 2026-10-12. Sound gaps audit (playbook 7.8). Result: no gaps to fill; n
 
 Decision (7.8c): leave all silent. Reason: the program is itself a sound toy; added sounds would mix with the sounds being listened to, could mask speech, and change what the author made. No "Added sounds" setting is needed. The owner may ask for cues in a later session.
 
-## Checks (Claude cannot hear)
+## Checks (the agent cannot hear)
 Automatic checks of the original wavs, `work/p4_wav_checks.txt` (not committed): leading and trailing silence, DC offset, peak. Nothing needs repair. Notable (CODE, file analysis, recomputed P5): brain8 is only 3 ms (heard as a click); brain3, 13, 21, 28, 31, 42 end with 35-43 ms of silence; brain14 starts with 50 ms of silence; brain7 is 49 ms of pure silence; the largest DC offsets are brain27 and brain40 (about 6.6 percent of full scale, 8-bit), every 16-bit file is under 1.1 percent. Clone plays files unchanged (no normalizing or trimming; changing them would change the original's sound).
 Listening review (owner, with the clone, in P7.6): the 42 wavs at random pitch, the four pan modes, nine slots at once, the two exit beeps.
 

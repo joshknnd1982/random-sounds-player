@@ -35,7 +35,7 @@ brain.txt (readme) text is in `original/brain.txt` and must be kept in the clone
 
 ## Clone additions (not in the original), P7 S7.4
 
-These texts exist only in the clone. They are spoken by the same voice as the original's texts, in `clone/src/brain/game/extra_texts.py`; the original's own texts stay in `texts.py` and above. Wording is Claude's (EVIDENCE: none needed, new function), and P8.2 may change it.
+These texts exist only in the clone. They are spoken by the same voice as the original's texts, in `clone/src/brain/game/extra_texts.py`; the original's own texts stay in `texts.py` and above. Wording is the agent's (EVIDENCE: none needed, new function), and P8.2 may change it.
 
 | ID | Text (summary) | Event |
 |----|----------------|-------|
